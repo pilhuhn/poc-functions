@@ -1,0 +1,11 @@
+- name: Playbook for some tower play.
+  hosts: all
+  tasks:
+    - name: Received trigger
+      debug:
+        msg:
+          - "Bundle: {{ bundle }}"
+          - "Application: {{ application }}"
+          - "Event Type: {{ event_type }}"
+          - "Display Name: {{ display_name }}"
+          - "Inventory Id: {{ inventory_id }}"
