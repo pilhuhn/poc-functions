@@ -7,5 +7,3 @@
           - "Bundle: {{ bundle }}"
           - "Application: {{ application }}"
           - "Event Type: {{ event_type }}"
-          - "Display Name: {{ display_name }}"
-          - "Inventory Id: {{ inventory_id }}"
