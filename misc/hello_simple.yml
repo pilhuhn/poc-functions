@@ -1,0 +1,7 @@
+- name: Playbook for some tower play.
+  hosts: all
+  tasks:
+    - name: Received trigger
+      debug:
+        msg: "Hello Ansible from Open Bridge"
+
